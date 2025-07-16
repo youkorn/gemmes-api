@@ -1,0 +1,147 @@
+{
+  "jade-sanguinolente": {
+    "name": "Jade Sanguinolente",
+    "stars": 5,
+    "type": "Offensive",
+    "special_effect": "Inflige des dégâts supplémentaires aux ennemis affectés par des effets persistants",
+    "rank_3_bonus": "+25% de dégâts contre les ennemis ralentis, empoisonnés ou saignés",
+    "rank_10_bonus": "Ajoute une explosion de poison en cas de coup fatal",
+    "recommended_for": ["Barbare", "Démoniste", "Chasseur de Démons"],
+    "progression": [
+      { "rank": 1, "gem_power": 0, "copies": 1 },
+      { "rank": 3, "gem_power": 45, "copies": 2 },
+      { "rank": 10, "gem_power": 360, "copies": 5 }
+    ]
+  },
+  "oeil-beryllien": {
+    "name": "Œil Béryllien",
+    "stars": 5,
+    "type": "Offensive",
+    "special_effect": "Augmente les dégâts infligés à distance",
+    "rank_3_bonus": "+12% de dégâts aux ennemis à plus de 3 mètres",
+    "rank_10_bonus": "Ajoute une perforation qui traverse les ennemis",
+    "recommended_for": ["Chasseur de Démons", "Sorcier", "Croisé"],
+    "progression": [
+      { "rank": 1, "gem_power": 0, "copies": 1 },
+      { "rank": 3, "gem_power": 45, "copies": 2 },
+      { "rank": 10, "gem_power": 360, "copies": 5 }
+    ]
+  },
+  "eclat-eternel": {
+    "name": "Éclat Éternel",
+    "stars": 5,
+    "type": "Utilitaire",
+    "special_effect": "Ressuscite automatiquement une fois par donjon",
+    "rank_3_bonus": "Confère un bouclier protecteur à la résurrection",
+    "rank_10_bonus": "Applique une immunité temporaire aux contrôles",
+    "recommended_for": ["Moine", "Croisé", "Barbare"],
+    "progression": [
+      { "rank": 1, "gem_power": 0, "copies": 1 },
+      { "rank": 3, "gem_power": 45, "copies": 2 },
+      { "rank": 10, "gem_power": 360, "copies": 5 }
+    ]
+  },
+  "retour-dans-lombre": {
+    "name": "Retour dans l’Ombre",
+    "stars": 5,
+    "type": "Offensive",
+    "special_effect": "Augmente les dégâts des attaques depuis l'invisibilité",
+    "rank_3_bonus": "Augmente de 8% la durée d’invisibilité",
+    "rank_10_bonus": "Ajoute une attaque surprise à l’émergence",
+    "recommended_for": ["Assassin", "Nécromancien", "Chasseur de Démons"],
+    "progression": [
+      { "rank": 1, "gem_power": 0, "copies": 1 },
+      { "rank": 3, "gem_power": 45, "copies": 2 },
+      { "rank": 10, "gem_power": 360, "copies": 5 }
+    ]
+  },
+  "benediction-du-phoenix": {
+    "name": "Bénédiction du Phénix",
+    "stars": 5,
+    "type": "Soins",
+    "special_effect": "Les coups critiques déclenchent une régénération de PV",
+    "rank_3_bonus": "+10% de soins pendant 3s après un coup critique",
+    "rank_10_bonus": "Les soins soignent les alliés proches",
+    "recommended_for": ["Moine", "Barbare", "Sorcier"],
+    "progression": [
+      { "rank": 1, "gem_power": 0, "copies": 1 },
+      { "rank": 3, "gem_power": 45, "copies": 2 },
+      { "rank": 10, "gem_power": 360, "copies": 5 }
+    ]
+  },
+  "frissons-tenebreux": {
+    "name": "Frissons Ténébreux",
+    "stars": 2,
+    "type": "Offensive",
+    "special_effect": "Ralentit les ennemis à chaque attaque",
+    "rank_3_bonus": "Ralentissement accru à 40%",
+    "rank_10_bonus": "Ajoute un gel si la cible est déjà ralentie",
+    "recommended_for": ["Sorcier", "Barbare"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 3, "gem_power": 45 },
+      { "rank": 10, "gem_power": 360 }
+    ]
+  },
+  "charme-hurlant": {
+    "name": "Charme Hurlant",
+    "stars": 2,
+    "type": "Débilitant",
+    "special_effect": "Possibilité d'effrayer les ennemis sur coup critique",
+    "rank_3_bonus": "Augmente la portée de l’effet de peur",
+    "rank_10_bonus": "Effraye également les cibles secondaires",
+    "recommended_for": ["Barbare", "Croisé"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 3, "gem_power": 45 },
+      { "rank": 10, "gem_power": 360 }
+    ]
+  },
+  "regard-du-dragon": {
+    "name": "Regard du Dragon",
+    "stars": 2,
+    "type": "Offensive",
+    "special_effect": "+5% de dégâts contre les élites",
+    "rank_3_bonus": "+7% de dégâts aux boss",
+    "rank_10_bonus": "Inflige des brûlures prolongées aux élites",
+    "recommended_for": ["Démoniste", "Sorcier"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 3, "gem_power": 45 },
+      { "rank": 10, "gem_power": 360 }
+    ]
+  },
+  "douleur-reflechie": {
+    "name": "Douleur Réfléchie",
+    "stars": 1,
+    "type": "Défensive",
+    "special_effect": "Renvoie un faible pourcentage des dégâts reçus",
+    "recommended_for": ["Tous"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 5, "gem_power": 120 }
+    ]
+  },
+  "petit-eclat-puissant": {
+    "name": "Petit Éclat Puissant",
+    "stars": 1,
+    "type": "Utilitaire",
+    "special_effect": "Ajoute +2% à la vitesse de déplacement",
+    "recommended_for": ["Moine", "Chasseur de Démons"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 5, "gem_power": 120 }
+    ]
+  },
+  "coeur-de-verre": {
+    "name": "Cœur de Verre",
+    "stars": 1,
+    "type": "Défensive",
+    "special_effect": "Réduit les dégâts magiques de 3%",
+    "recommended_for": ["Sorcier", "Moine"],
+    "progression": [
+      { "rank": 1, "gem_power": 0 },
+      { "rank": 5, "gem_power": 120 }
+    ]
+  }
+}
