@@ -1,0 +1,663 @@
+{
+  "appel-du-hurleur": {
+    "nom": "Appel du Hurleur",
+    "etoiles": 5,
+    "effet": "10 % de chance d’invoquer un loup spirituel infligeant 150 % de dégâts de base + 1458 dégâts.",
+    "bonus_rang_3": "12 % de chance d’étourdir les ennemis pendant 3 secondes.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Étourdissement 12 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "benediction-des-braves": {
+    "nom": "Bénédiction des Braves",
+    "etoiles": 5,
+    "effet": "20 % de chance de contre-attaque infligeant 12 % de votre vie max aux ennemis proches.",
+    "bonus_rang_3": "Réduction des dégâts subis de 4 % pendant 6 secondes.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Réduction dégâts 4 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "bile-suintante": {
+    "nom": "Bile Suintante",
+    "etoiles": 5,
+    "effet": "4 % de chance d’empoisonner les ennemis, infligeant 25 % de dégâts de base + 263 DPS pendant 6 secondes. Le poison se propage si la cible meurt.",
+    "bonus_rang_3": "Réduction de 6 % de la vitesse de déplacement des ennemis",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Ralentissement 6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "cendres-du-phoenix": {
+    "nom": "Cendres du Phénix",
+    "etoiles": 5,
+    "effet": "Empêche la mort et confère un bouclier absorbant 450 % des dégâts de base pendant 6 secondes. Se déclenche toutes les 180 secondes.",
+    "bonus_rang_3": "Récupère 20 % de la santé restante du bouclier.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Récupération PV 20 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "coeur-gele": {
+    "nom": "Cœur Gelé",
+    "etoiles": 5,
+    "effet": "Vos attaques ont une chance de geler les ennemis, infligeant des dégâts supplémentaires et réduisant leur vitesse d’attaque.",
+    "bonus_rang_3": "Réduction de la vitesse d’attaque ennemie de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Ralentissement attaque"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "coeur-lupin": {
+    "nom": "Cœur Lupin",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés aux ennemis affectés par des effets de contrôle.",
+    "bonus_rang_3": "Durée des effets de contrôle augmentée de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée CC +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "consequence-facheuse": {
+    "nom": "Conséquence Fâcheuse",
+    "etoiles": 5,
+    "effet": "Vos coups critiques infligent des dégâts supplémentaires et ont une chance d’appliquer un effet de saignement.",
+    "bonus_rang_3": "Augmente les chances de saignement de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Saignement +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "eclat-feu-stellaire": {
+    "nom": "Éclat de Feu Stellaire",
+    "etoiles": 5,
+    "effet": "Vos compétences infligent des dégâts supplémentaires sous forme de feu stellaire pendant 3 secondes.",
+    "bonus_rang_3": "Augmente la durée du feu stellaire de 1 seconde",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée +1s"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "eclat-pierre-tissulaire": {
+    "nom": "Éclat de Pierre Tissulaire",
+    "etoiles": 5,
+    "effet": "Applique une malédiction explosive aux ennemis affectés par un effet de contrôle.",
+    "bonus_rang_3": "Augmente les dégâts de l’explosion de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Explosion +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "espoir-liquide": {
+    "nom": "Espoir Liquide",
+    "etoiles": 5,
+    "effet": "Octroie un bonus de dégâts et de vitesse de déplacement de 8 % pendant 6 secondes à l’allié le plus proche lorsque vous utilisez une compétence de soutien.",
+    "bonus_rang_3": "Durée du bonus augmentée de 1 seconde",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée +1s"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+{
+  "appel-du-hurleur": {
+    "nom": "Appel du Hurleur",
+    "etoiles": 5,
+    "effet": "10 % de chance d’invoquer un loup spirituel infligeant 150 % de dégâts de base + 1458 dégâts.",
+    "bonus_rang_3": "12 % de chance d’étourdir les ennemis pendant 3 secondes.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Étourdissement 12 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "benediction-des-braves": {
+    "nom": "Bénédiction des Braves",
+    "etoiles": 5,
+    "effet": "20 % de chance de contre-attaque infligeant 12 % de votre vie max aux ennemis proches.",
+    "bonus_rang_3": "Réduction des dégâts subis de 4 % pendant 6 secondes.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Réduction dégâts 4 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "bile-suintante": {
+    "nom": "Bile Suintante",
+    "etoiles": 5,
+    "effet": "4 % de chance d’empoisonner les ennemis, infligeant 25 % de dégâts de base + 263 DPS pendant 6 secondes. Le poison se propage si la cible meurt.",
+    "bonus_rang_3": "Réduction de 6 % de la vitesse de déplacement des ennemis",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Ralentissement 6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "cendres-du-phoenix": {
+    "nom": "Cendres du Phénix",
+    "etoiles": 5,
+    "effet": "Empêche la mort et confère un bouclier absorbant 450 % des dégâts de base pendant 6 secondes. Se déclenche toutes les 180 secondes.",
+    "bonus_rang_3": "Récupère 20 % de la santé restante du bouclier.",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Récupération PV 20 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "coeur-gele": {
+    "nom": "Cœur Gelé",
+    "etoiles": 5,
+    "effet": "Vos attaques ont une chance de geler les ennemis, infligeant des dégâts supplémentaires et réduisant leur vitesse d’attaque.",
+    "bonus_rang_3": "Réduction de la vitesse d’attaque ennemie de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Ralentissement attaque"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "coeur-lupin": {
+    "nom": "Cœur Lupin",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés aux ennemis affectés par des effets de contrôle.",
+    "bonus_rang_3": "Durée des effets de contrôle augmentée de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée CC +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "consequence-facheuse": {
+    "nom": "Conséquence Fâcheuse",
+    "etoiles": 5,
+    "effet": "Vos coups critiques infligent des dégâts supplémentaires et ont une chance d’appliquer un effet de saignement.",
+    "bonus_rang_3": "Augmente les chances de saignement de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Saignement +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "eclat-feu-stellaire": {
+    "nom": "Éclat de Feu Stellaire",
+    "etoiles": 5,
+    "effet": "Vos compétences infligent des dégâts supplémentaires sous forme de feu stellaire pendant 3 secondes.",
+    "bonus_rang_3": "Augmente la durée du feu stellaire de 1 seconde",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée +1s"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "eclat-pierre-tissulaire": {
+    "nom": "Éclat de Pierre Tissulaire",
+    "etoiles": 5,
+    "effet": "Applique une malédiction explosive aux ennemis affectés par un effet de contrôle.",
+    "bonus_rang_3": "Augmente les dégâts de l’explosion de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Explosion +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "espoir-liquide": {
+    "nom": "Espoir Liquide",
+    "etoiles": 5,
+    "effet": "Octroie un bonus de dégâts et de vitesse de déplacement de 8 % pendant 6 secondes à l’allié le plus proche lorsque vous utilisez une compétence de soutien.",
+    "bonus_rang_3": "Durée du bonus augmentée de 1 seconde",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée +1s"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+    "etincelle-du-vide": {
+    "nom": "Étincelle du Vide",
+    "etoiles": 5,
+    "effet": "Vos attaques ont une chance d’infliger des dégâts supplémentaires issus du néant.",
+    "bonus_rang_3": "Augmente les dégâts du néant de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Dégâts +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "firmament-dor": {
+    "nom": "Firmament d'Or",
+    "etoiles": 5,
+    "effet": "Augmente les chances de coup critique de 8 % pendant 6 secondes après avoir utilisé une compétence ultime.",
+    "bonus_rang_3": "Durée du bonus augmentée de 1 seconde",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Durée +1s"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "force-de-volonte": {
+    "nom": "Force de Volonté",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés de 6 % lorsque votre vie est supérieure à 80 %.",
+    "bonus_rang_3": "Seuil de vie abaissé à 70 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Seuil 70 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "fragment-flammes-infernales": {
+    "nom": "Fragment de Flammes Infernales",
+    "etoiles": 5,
+    "effet": "Inflige des dégâts de feu supplémentaires aux ennemis touchés par vos compétences.",
+    "bonus_rang_3": "Augmente les dégâts de feu de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Feu +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "gueule-des-profondeurs": {
+    "nom": "Gueule des Profondeurs",
+    "etoiles": 5,
+    "effet": "Vos attaques ont une chance d’invoquer une gueule abyssale infligeant des dégâts de zone.",
+    "bonus_rang_3": "Augmente la zone d’effet de 10 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Zone +10 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "hantise-de-zwenson": {
+    "nom": "Hantise de Zwenson",
+    "etoiles": 5,
+    "effet": "Invoque une bête infligeant 50 % de dégâts de base + 486 dégâts après avoir tué un ennemi.",
+    "bonus_rang_3": "7 % de chance d’invoquer un dragon noir",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Dragon noir 7 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "incuse-des-mille-royaumes": {
+    "nom": "Incuse des Mille Royaumes",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés aux boss et élites de 6 %.",
+    "bonus_rang_3": "Bonus augmenté à 8 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Bonus 8 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "jade-sanguillonante": {
+    "nom": "Jade Sanguillonante",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés et la vitesse de déplacement de 8 % lorsque vous subissez des dégâts.",
+    "bonus_rang_3": "Dégâts bonus améliorés de 6 % si PV < 50 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Dégâts +6 % sous 50 % PV"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "moteur-colossal": {
+    "nom": "Moteur Colossal",
+    "etoiles": 5,
+    "effet": "Réduit le temps de recharge de vos compétences de 10 %.",
+    "bonus_rang_3": "Réduction de recharge améliorée à 15 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Recharge 15 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "ombre-resonnante": {
+    "nom": "Ombre Résonnante",
+    "etoiles": 5,
+    "effet": "15 % de chance d’invoquer un clone pendant 8 secondes avec vos attributs.",
+    "bonus_rang_3": "Le clone hérite de 50 % de vos stats",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Clone 50 % stats"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "sang-fielleux": {
+    "nom": "Sang Fielleux",
+    "etoiles": 5,
+    "effet": "Vos attaques ont une chance d’empoisonner l’ennemi, infligeant des dégâts sur la durée.",
+    "bonus_rang_3": "Dégâts de poison augmentés de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Poison +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "sombre-fut": {
+    "nom": "Sombre Fût",
+    "etoiles": 5,
+    "effet": "Augmente les dégâts infligés lorsque votre vie est inférieure à 30 %.",
+    "bonus_rang_3": "Seuil de vie relevé à 40 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Seuil 40 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  },
+  "voute-orageuse": {
+    "nom": "Voûte Orageuse",
+    "etoiles": 5,
+    "effet": "Vos compétences infligent des dégâts de foudre supplémentaires et ont une chance d’étourdir les ennemis.",
+    "bonus_rang_3": "Chance d’étourdissement augmentée de 6 %",
+    "bonus_rang_5": "+15 % découverte magique",
+    "bonus_rang_10": "Éveil + bonus de résonance gemme",
+    "progression": [
+      [1,24,100,"Effet principal"],
+      [2,48,120,"—"],
+      [3,72,150,"Étourdissement +6 %"],
+      [4,96,180,"—"],
+      [5,120,210,"+15 % découverte magique"],
+      [6,144,240,"—"],
+      [7,168,270,"—"],
+      [8,192,300,"—"],
+      [9,216,330,"—"],
+      [10,240,360,"Éveil + bonus de résonance gemme"]
+    ]
+  }
+}
